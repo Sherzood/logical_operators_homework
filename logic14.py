@@ -6,4 +6,7 @@ def main(a):
     Returns:
         bool: answer
     """
-    return
+    a1=a%10
+    a2=a//10
+    sum_digits=a1+a2
+    return sum_digits%2==1
